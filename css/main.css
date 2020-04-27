@@ -80,6 +80,11 @@ p, .page-section__body {
   line-height: 33px;
 }
 
+.page-section__body--highlight {
+  font-size: 28px;
+  line-height: 38px;
+}
+
 .page-section__body--center {
   text-align: center;
 }
