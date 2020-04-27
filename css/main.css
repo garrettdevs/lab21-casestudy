@@ -66,10 +66,38 @@ h1, .cover-section__title {
   -webkit-text-fill-color: var(--white);
 }
 
-h2, .cover-section__header1 {
+.cover-section__header {
   font-weight: 800;
   font-size: 28px;
   line-height: 38px;
+}
+
+.cover-section__subheader {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+h2, .page-section__header {
+  text-align: center;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 68px;
+}
+
+h3, .page-section__subheader {
+  text-align: center;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.page-section__header--reverse {
+  color: var(--white);
+  background: var(--black);
+  text-align: center;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 68px;
 }
 
 /*body*/
