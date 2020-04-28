@@ -88,7 +88,8 @@ h1, .cover-section__title {
   line-height: 28px;
 }
 
-.cover-section__list li, a {
+.cover-section__list li,
+.cover-section__list a {
   font-family: var(--font-sans-serif-1);
   text-transform: uppercase;
   font-size: 70px;
@@ -156,3 +157,27 @@ img {
   display: block;
 }
 
+/*.main-button*/
+
+.main-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 400px;
+  border-bottom: 3px solid var(--black);
+  padding: 1rem;
+}
+
+.main-button__text {
+  text-decoration: none;
+  color: var(--black);
+  text-transform: uppercase;
+  font-family: var(--font-sans-serif-1);
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.main-button__icon {
+  width: 28px;
+}
