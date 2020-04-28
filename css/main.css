@@ -181,3 +181,7 @@ img {
 .main-button__icon {
   width: 28px;
 }
+
+.main-button--active {
+  background: var(--yellow);
+}
