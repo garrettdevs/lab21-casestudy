@@ -168,6 +168,10 @@ img {
   padding: 1rem;
 }
 
+.main-button:hover {
+  background: var(--yellow);
+}
+
 .main-button__text {
   text-decoration: none;
   color: var(--black);
