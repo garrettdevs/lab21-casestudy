@@ -105,6 +105,7 @@ h1, .cover-section__title {
 .cover-section__list li {
   padding: 0;
   list-style-type: none;
+  padding-bottom: 1.5rem;
 }
 
 
@@ -114,7 +115,6 @@ h1, .cover-section__title {
   font-size: 70px;
   line-height: 73px;
   text-decoration: none;
-  line-height: 120%;
   -webkit-text-stroke: 1px black;
   -webkit-text-fill-color: var(--transparent);
 }
@@ -169,6 +169,23 @@ p, .page-section__body {
 .page-section__body--reverse {
   color: var(--white);
   background: var(--black);
+}
+
+.page-section__list li {
+  padding-bottom: 1rem;
+  list-style-type: '——';
+}
+
+
+.page-section__list-item {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 28px;
+  text-decoration: none;
+  color: var(--black);
+  padding-left: 1rem;
 }
 
 /* Layout Classes */
