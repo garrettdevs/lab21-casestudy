@@ -295,6 +295,7 @@ img {
   text-transform: uppercase;
   font-family: var(--font-heading);
   font-weight: 900;
+  /*filter: invert(.25);*/
 }
 
 .main-nav__list-item:hover {
