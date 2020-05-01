@@ -247,47 +247,14 @@ img {
   background: var(--yellow);
 }
 
-/*.main-button {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  max-width: 400px;
-  border-bottom: 3px solid var(--black);
-  padding: 1rem;
-}
-
-.main-button:hover {
-  background: var(--yellow);
-}
-
-.main-button__text {
-  text-decoration: none;
-  color: var(--black);
-  text-transform: uppercase;
-  font-family: var(--font-heading);
-  font-weight: 900;
-  font-size: 18px;
-  line-height: 20px;
-}
-
-.main-button__icon {
-  font-size: 2rem;
-}
-
-.main-button--reverse {
+.main-button__contents--reverse {
   border-bottom: 3px solid var(--white);
-}
-
-.main-button--reverse > * {
   color: var(--white);
 }
 
-.main-button--reverse:hover {
+.main-button__contents--reverse:hover {
   border-bottom: 3px solid var(--black);
-}
-
-.main-button--reverse > *:hover{
-  color: var(--black);*/
+  color: var(--black);
 }
 
 /*.main-wordmark*/
