@@ -257,7 +257,7 @@ img {
 }
 
 .main-wordmark {
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: var(--font-body);
   font-weight: 700;
   text-decoration: none;
@@ -266,4 +266,61 @@ img {
 
 .main-wordmark--reverse {
   color: var(--white);
+}
+
+/*PAGE HEADER*/
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav__list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.main-nav__list-item {
+  list-style-type: none;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: var(--font-heading);
+  font-weight: 900;
+}
+
+.main-nav__list-item:hover {
+  text-decoration: underline;
+}
+
+.main-nav__icon-list {
+  display: flex;
+}
+
+.main-nav__icon {
+  font-size: 2.5rem;
+  padding: 1.25rem;
+}
+
+.main-nav__icon:hover {
+  color: var(--white);
+  background: var(--salmon);
+}
+
+.main-nav__icon--search {
+  color: var(--black);
+  background: var(--white);
+}
+
+.main-nav__icon--menu {
+  color: var(--white);
+  background: var(--black);
 }
