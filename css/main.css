@@ -105,6 +105,7 @@ h1, .cover-section__title {
 .cover-section__subheader {
   font-size: 18px;
   line-height: 28px;
+  font-weight: 700;
 }
 
 /*.cover-section__list*/
@@ -253,4 +254,16 @@ img {
 
 .main-button--reverse > *:hover{
   color: var(--black);
+}
+
+.main-wordmark {
+  font-size: 2rem;
+  font-family: var(--font-body);
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.main-wordmark--reverse {
+  color: var(--white);
 }
