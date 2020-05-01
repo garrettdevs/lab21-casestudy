@@ -324,3 +324,45 @@ img {
   color: var(--white);
   background: var(--black);
 }
+
+/*PAGE FOOTER*/
+
+.page-footer {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ height: 25rem;
+}
+
+.page-footer__contact {
+  background: var(--black);
+  color: var(--white);
+  padding: 2rem;
+}
+
+.page-footer__social-media {
+  background: var(--black);
+  color: var(--white);
+  padding: 8rem 10rem;
+}
+
+.footer-social__header {
+  text-align: right;
+  text-transform: none;
+  font-size: 1.25rem;
+  font-family: var(--font-body);
+  font-weight: 400;
+  margin: 0;
+}
+
+.page-footer__icon-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-social__icon {
+  font-size: 1.5rem;
+  padding: 0px;
+}
+
