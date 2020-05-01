@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <title>Components | lab21 </title>
         <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans:wght@700;800&display=swap" rel="stylesheet">
+        <link href="font-awesome/css/all.css" rel="stylesheet">
         <link href="../css/normalize.css" rel="stylesheet"/>
         <link href="../css/main.css" rel="stylesheet"/>
     </head>
@@ -99,7 +100,7 @@
                     </div>
                     <!--.component__img-->
             
-                        <div class="component__code">
+                        <div class="component__code component__code--reverse">
                             <p class=
                             "page-section__body--highlight
                             page-section__body--center page-section__body--reverse">
@@ -257,7 +258,7 @@
                     </div>
                     <!--.component__img-->
             
-                    <div class="component__code">
+                    <div class="component__code component__code--reverse">
                         <h2 class="page-section__header page-section__header--reverse">Have A Project In Mind?</h2>    
                     </div>
                     <!--.component__code-->
@@ -351,51 +352,96 @@
             </article>
             <!--END OF TYPOGRAPHY-->
 
+            <article class="page-section page-section__atoms">
 
-            <article class="component">
+                <h2>Atoms</h2>
 
-                <h3 class="component__title">Buttons</h3>
+                <div class="component-group component-group__buttons">
+
+                    <h3 class="component-group__header">Buttons</h3>
+
+                    <section class="component">
             
-                <h4 class="component__subtitle">Main Button</h4>
-            
-                <div class="component__img">
-                <img
-                    srcset="img/button/button.png 2x"
-                    src="img/button/button.png"
-                    alt="main button">
-                </div>
-            
-                <div class="component__code">
-                    <div class="main-button">
+                        <h4 class="component__title">Main Button</h4>
+                
+                        <div class="component__img">
+                            <img
+                            srcset="img/button/button.png 2x"
+                            src="img/button/button.png"
+                            alt="main button">
+                        </div>
+                        <!--.component__img-->
+
+                        <div class="component__img">
+                            <img
+                            srcset="img/button/button--active.png 2x"
+                            src="img/button/button--active.png.png"
+                            alt="main button">
+                        </div>
+                        <!--.component__img-->
+                
+                        <div class="component__code">
+                            
+                            <div class="main-button">
                         
-                        <a href="#!" class="main-button__text">Tell us about your project</a>
+                                <a href="#!" class="main-button__text">Tell us about your project</a>
+                                <i class="fas fa-chevron-right main-button__icon"></i>
+        
+                            </div>
 
-                        <img src="icons/arrows/svg/055-right-2.svg" class="main-button__icon">
+                        </div>
+                        <!--.component__code-->
+                
+                    </section>
+                    <!--.main-button-->
 
-                    </div>
-                </div>
-
-                    <h4 class="component__subtitle">Main Button</h4>
+                    <section class="component">
             
-                <div class="component__img">
-                <img
-                    srcset="img/button/button--active.png 2x"
-                    src="img/button/button--active.png.png"
-                    alt="main button">
-                </div>
-            
-                <div class="component__code">
-                    <div class="main-button main-button--active">
+                        <h4 class="component__title">Main Button (Reverse)</h4>
+                
+                        <div class="component__img">
+                            <img
+                            srcset="img/button/button--reverse.png 2x"
+                            src="img/button/button--reverse.png"
+                            alt="main button">
+                        </div>
+                        <!--.component__img-->
+
+                        <div class="component__img">
+                            <img
+                            srcset="img/button/button--reverse-active.png 2x"
+                            src="img/button/button--reverse-active.png.png"
+                            alt="main button">
+                        </div>
+                        <!--.component__img-->
+                
+                        <div class="component__code component__code--reverse">
+                            
+                            <div class="main-button main-button--reverse">
                         
-                        <a href="#!" class="main-button__text main-button__text--active">Tell us about your project</a>
+                                <a href="#!" class=" main-button__text main-button__text--reverse">Let's Work Together</a>
+                                <i class="fas fa-chevron-right main-button__icon main-button__icon--reverse"></i>
+        
+                            </div>
 
-                        <img src="icons/arrows/svg/055-right-2.svg" class="main-button__icon main-button__icon--active">
+                        </div>
+                        <!--.component__code-->
+                
+                    </section>
+                    <!--.main-button--reverse-->
 
-                    </div>
 
                 </div>
+                <!--END OF BUTTONS-->
 
-                </article>
+
+
+
+
+            </article>
+            <!--END OF ATOMS-->
+
+
         </main>
     </body>
 </html>
