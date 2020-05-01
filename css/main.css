@@ -209,26 +209,23 @@ img {
   float: right;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.two-column__grid{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 0 auto;
+}
+
 /*ATOMS*/
 
 /*.main-button*/
 
 .main-button {
   display: block;
-}
-
-
-.main-button__contents {
-  text-decoration: none;
-  display: block;
-  margin: 4rem auto;
-
-}
-
-.main-button a{
-  color: inherit;
-  text-decoration: none;
-
 }
 
 .main-button__contents {
@@ -245,7 +242,7 @@ img {
   padding: 1rem;
   color: var(--black);
   border-bottom: 2px solid var(--black);
-
+  margin: 4rem auto;
 }
 
 .main-button__icon {
@@ -259,6 +256,7 @@ img {
 .main-button__contents--reverse {
   border-bottom: solid var(--white);
   color: var(--white);
+
 }
 
 .main-button__contents--reverse:hover {
