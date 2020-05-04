@@ -100,6 +100,10 @@ h1, .cover-section__title {
   text-align: left
 }
 
+.about-section__header {
+  text-align: right;
+}
+
 .cover-section__subheader {
   font-size: 18px;
   line-height: 28px;
@@ -333,7 +337,9 @@ a {
 
 .cover-section__article--two-column {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 4rem;
+  margin: 1rem 20% 1rem 10%;
 }
 
 /*.cover-section__gallery*/
