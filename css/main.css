@@ -90,7 +90,7 @@ h1, .cover-section__title {
 
 .outline {
   -webkit-text-stroke: 1px black;
-  -webkit-text-fill-color: var(--white);
+  -webkit-text-fill-color: var(--transparent);
 }
 
 .cover-section__header {
@@ -350,10 +350,10 @@ a {
   margin: 0;
   padding: 0;
   position: relative;
-  text-align: left;
-  font-size: 4rem;
   top: 2rem;
   left: 2rem;
+  text-align: left;
+  font-size: 4rem;
 }
 
 .cover-section__card-photo {
@@ -370,7 +370,19 @@ a {
 
 /*.cover-section__list*/
 
-.cover-section__list li {
+.cover-section__list {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.cover-section__list-text {
+  position: absolute;
+  right: 25%;
+  top: 15%;
+}
+
+.cover-section__list-text li {
   padding: 0;
   list-style-type: none;
   padding-bottom: 1.5rem;
@@ -391,7 +403,16 @@ a {
   -webkit-text-stroke: 0px;
 }
 
+.cover-section__list-img {
+  position: relative;
+  left: 40%;
+}
 
+.cover-section__button {
+  position: relative;
+  bottom: 15rem;
+  left: 4rem;
+}
 
 
 /*PAGE FOOTER*/
