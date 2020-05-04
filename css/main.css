@@ -104,6 +104,7 @@ h1, .cover-section__title {
   font-size: 18px;
   line-height: 28px;
   font-weight: 700;
+  text-align: left;
 }
 
 /*.page-section*/
@@ -327,6 +328,35 @@ a {
 
 .cover-section-hero__hero-image {
   max-height: 45rem;
+}
+
+.cover-section__article--two-column {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+/*.cover-section__gallery*/
+
+.cover-section__gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.cover-section__card-number {
+  color: var(--yellow);
+}
+
+.cover-section__card-photo {
+  width: 40rem;
+}
+
+.cover-section__card-title {
+  text-align: left;
+  text-transform: none;
+  font-size: 28px;
+  line-height: 38px;
+  margin-bottom: 1rem;
 }
 
 /*.cover-section__list*/
