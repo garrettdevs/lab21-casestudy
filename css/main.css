@@ -343,8 +343,17 @@ a {
   grid-template-rows: 1fr 1fr;
 }
 
+
 .cover-section__card-number {
   color: var(--yellow);
+  /*filter: invert(.2), opacity(50);*/
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: left;
+  font-size: 4rem;
+  top: 2rem;
+  left: 2rem;
 }
 
 .cover-section__card-photo {
