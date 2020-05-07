@@ -115,8 +115,13 @@ h1, .cover-section__title {
 /*.page-section*/
 
 .page-section {
-  border-top: 3px solid var(--salmon);
+  /*border-top: 3px solid var(--salmon);*/
   margin-bottom: 4rem;
+}
+
+.page-section--reverse {
+  color: var(--white); 
+  background-color: var(--black);
 }
 
 h2, .page-section__header {
@@ -133,12 +138,6 @@ h3, .page-section__subheader {
   line-height: 50px;
 }
 
-.page-section__header--reverse {
-  color: var(--white);
-  font-size: 60px;
-  line-height: 68px;
-}
-
 p, .page-section__body {
   font-family: var(--font-body);
   font-size: 19px;
@@ -152,10 +151,6 @@ p, .page-section__body {
 
 .page-section__body--center {
   text-align: center;
-}
-
-.page-section__body--reverse {
-  color: var(--white);
 }
 
 .page-section__list li {
