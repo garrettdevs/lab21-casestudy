@@ -69,6 +69,7 @@ html {
 body {
   font-family: var(--font-body);
   color: var(--black);
+  margin: 0;
 }
 
 /*TYPOGRAPHY*/
@@ -331,9 +332,9 @@ a {
 
 /*.cover-section-hero*/
 
-.cover-section-hero__hero-image {
+/*.cover-section-hero__hero-image {
   max-height: 45rem;
-}
+}*/
 
 .cover-section__article--two-column {
   display: grid;
