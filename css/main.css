@@ -124,6 +124,7 @@ h1, .cover-section__title {
 .page-section--reverse {
   color: var(--white); 
   background-color: var(--black);
+  padding: 15rem;
 }
 
 h2, .page-section__header {
@@ -355,7 +356,8 @@ a {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 3rem;
-  margin: 1rem 10%;
+  margin: 1rem 8rem;
+  border: 1px solid red;
 }
 
 .cover-section__card-number {
@@ -388,7 +390,7 @@ a {
   position: relative;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  margin: 1rem 5%;
+  margin: 10rem 5%;
 }
 
 .cover-section__list-text {
