@@ -24,8 +24,8 @@
 html {
   box-sizing: border-box;
   /*margin: 1rem;*/
-  scrollbar-color: var(--salmon) inherit;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -524,4 +524,3 @@ a {
 .page-footer__social-icon:hover {
   color: var(--yellow);
 }
-
