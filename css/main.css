@@ -118,7 +118,6 @@ h1, .cover-section__title {
 
 .page-section {
   /*border-top: 3px solid var(--salmon);*/
-  margin-bottom: 4rem;
 }
 
 .page-section--reverse {
@@ -127,11 +126,20 @@ h1, .cover-section__title {
   padding: 15rem;
 }
 
+.services-section {
+  margin: 10rem;
+}
+
+.awards-section {
+  margin: 10rem 25rem; 
+}
+
 h2, .page-section__header {
   text-align: center;
   font-weight: 800;
   font-size: 60px;
   line-height: 68px;
+  margin: 1rem;
 }
 
 h3, .page-section__subheader {
@@ -139,6 +147,7 @@ h3, .page-section__subheader {
   font-weight: 800;
   font-size: 40px;
   line-height: 50px;
+  margin: 1rem 0;
 }
 
 p, .page-section__body {
@@ -176,11 +185,11 @@ p, .page-section__body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 5rem 10rem;
+  margin: 5rem 1rem;
 }
 
 .img-list__img {
-  max-width: 100px;
+  padding: 2rem;
 }
 
 /* Layout Classes */
@@ -338,10 +347,6 @@ a {
 
 /*.cover-section-hero*/
 
-/*.cover-section-hero__hero-image {
-  max-height: 45rem;
-}*/
-
 .cover-section__article--two-column {
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -358,8 +363,9 @@ a {
   margin: 1rem 5rem;
 }
 
-@media (min-width: 800px) {
-  .cover-section__gallery { grid-template-columns: repeat(2, 1fr);
+@media (min-width: 40rem) {
+  .cover-section__gallery { 
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .cover-section__card-number {
